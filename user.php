@@ -6,9 +6,9 @@
 
 	if (!empty($username) || !empty($email) || !empty($phone) || !empty($password) ) {
 	    $dbhost = "localhost";
-	    $dbUsername = "root";
-	    $dbPassword ="";
-	    $dbname = "xenon";
+	    $dbUsername = "id21015605_shivvishal";
+	    $dbPassword ="Shiv@123";
+	    $dbname = "id21015605_heavenlymeals";
 	
 	    //create connection
 	    $conn = new mysqli("$dbhost", "$dbUsername","$dbPassword","$dbname");
