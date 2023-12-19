@@ -2,7 +2,7 @@
    $email=$_POST['email'];
    $password=$_POST['password'];
    
-      //database connection here
+      //database connection here with password
         $dbhost = "localhost";
 	    $dbUsername = "id21015605_shivvishal";
 	    $dbPassword ="Shiv@123";
