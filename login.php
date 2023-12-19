@@ -4,10 +4,10 @@
 
   // Database connection
   $dbhost = "localhost";
-  $dbUsername = "id21015605_shivvishal";
-  $dbPassword ="Shiv@123";
-  $dbname = "id21015605_heavenlymeals";
-
+  $dbUsername = "root";
+  $dbPassword ="";
+  $dbname = "xenon";
+ 
   // Create connection
   $conn = new mysqli("$dbhost", "$dbUsername", "$dbPassword", "$dbname");
   if ($conn->connect_error) {
